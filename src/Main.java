@@ -1,3 +1,5 @@
+import com.nadia.dataStructer.ListData;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +7,7 @@ public class Main {
         //  Parent parent = new ChildOne();
         // parent.show();
         // wilw true برای اینکه برنامه بسته نشود
-       /* while (true) {
+        while (true) {
             System.out.println("mohasebe ra vared konid");
             Scanner scanner = new Scanner(System.in);
             String string = scanner.next();
@@ -18,8 +20,8 @@ public class Main {
             Mohaseb mohaseb;
             switch (alamat) {
                 case "+":
-                    mohaseb = new Jam();
-                    System.out.println("jam barabar ast ba: " + mohaseb.mohasebeh(numberOne, numberTwo));
+                    mohaseb = new Jam(20);
+                    System.out.println("jam barabar ast ba: " + mohaseb.mohasebeh("nadia"));
                     break;
                 case "-":
                     mohaseb = new Tafrigh();
@@ -34,10 +36,14 @@ public class Main {
                     System.out.println("hasel taghsim : " + mohaseb.mohasebeh(numberOne, numberTwo));
                     break;
             }
-        }*/
+        }
+
+
    //     Tafrigh tafrigh=new Tafrigh();
       //  tafrigh.salam();
-        Tafrigh.salam();
+     //   Tafrigh.salam();
+       // ListData listData=new ListData();
+       // listData.addTOlist();
     }
     }
 

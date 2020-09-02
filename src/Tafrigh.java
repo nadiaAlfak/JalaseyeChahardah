@@ -4,6 +4,11 @@ public class Tafrigh implements Mohaseb {
         return numberOne-numberTwo;
     }
 
+    @Override
+    public int mohasebeh(String name) {
+        return 0;
+    }
+
     public static void salam(){
         System.out.println("salam");
     }
